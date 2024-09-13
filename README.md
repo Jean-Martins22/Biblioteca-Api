@@ -32,8 +32,9 @@
 <h3> Livro 📖</h3>
 
 - Buscar Livros: `/livros` (GET)
-- Buscar Livros por filtro: `/livros/busca` (GET)
-- Buscar Livros por Autor: `livros/busca?nomeAutor` (GET)
+- Buscar Livros por filtros: `/livros/busca` (GET)
+- Buscar Livros por Autor: `livros/busca?nomeAutor=` (GET)
+- Buscar Livros por Titulo: `livros/busca?titulo=` (GET)
 - Buscar Livro por Id: `/livros/:id` (GET)
 - Cadastrar Livro: `/livros` (POST)
 - Atualizar Livro: `/livros/:id` (PUT)
